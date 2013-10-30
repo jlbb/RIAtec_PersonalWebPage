@@ -1,0 +1,122 @@
+/* Tags initialization */
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+/* CSS for general configuration in the document */
+body {
+	background-color: #F4FEFF;
+}
+
+
+a {
+	color: #2EC8FF;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/* CSS for "menu" section */
+
+#menu {
+	background-color: #31A5C4;
+	width: 15%;
+	float: left;
+	height: 1080px;
+}
+
+#menu a {
+	color: #5C0CE8;
+}
+
+#menu #logo {
+	margin: 5%;
+	margin-left: 25%;
+}
+
+#menu ul {
+	margin-left: 25%;
+}
+
+#menu li {
+	margin-top: 5%;
+	font-family: "MS Serif";
+	font-size: large;
+}
+
+/* CSS for "personal" section */
+
+#personal {
+	float: left;
+	width: 80%;
+}
+
+#personal hr {
+	margin-left: 5%;
+	margin-top: 2%
+}
+
+#personal #pic {
+	margin-top: 2%;
+	height: 170px;
+}
+
+.info {
+	float: left;
+	width: 70%;
+	margin-top: 2%;
+	margin-left: 5%;
+}
+
+.info #name {
+	font-size: xx-large;
+}
+
+.info #position {
+	font-size: x-large;
+	color: #1CB2F5;
+}
+
+.info #department {
+	margin-top: 5%;
+	font-weight: bold;
+	font-size: large;
+	color: #1CB21B;
+}
+
+.info span {
+	font-weight: normal;
+	font-style: normal;
+	color: black;
+}
+
+.info #company {
+	font-size: large;
+	font-style: italic;
+}
+
+#personal ul {
+	list-style: none;
+}
+
+#personal li {
+	margin-top: 2%;
+}
+
+#personal li .item-options {
+	margin-left: 5%;
+	font-size: large;
+	vertical-align: top;
+}
